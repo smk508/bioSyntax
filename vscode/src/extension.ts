@@ -96,7 +96,7 @@ export function activate(context: vscode.ExtensionContext) {
             lang === "bed") {
             // update theme
             vscode.workspace.getConfiguration().update("workbench.colorTheme", "bioSyntax", true);
-        }else{
+        } else if (beforeTheme !== "bioSyntax") {
             vscode.workspace.getConfiguration().update("workbench.colorTheme", beforeTheme, true);
         }
         

@@ -12,7 +12,7 @@
         "Programming Languages"
     ],
     "activationEvents": [
-        "*",
+        "*"
     ],
     "main": "./out/extension",
     "contributes": {
